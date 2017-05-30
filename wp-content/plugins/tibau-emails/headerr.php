@@ -12,6 +12,5 @@ if(count($results) > 0){
     }
 }
 print $csv_output;
-print $csv_output2;
 
 ?>

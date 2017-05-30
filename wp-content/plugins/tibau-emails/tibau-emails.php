@@ -22,10 +22,18 @@ function tibau_emails() {
     global $wpdb;
     $result = $wpdb->get_results("SELECT * FROM email");
 
+    ?>
+    <table>
+        <?php
     foreach ($result as $print) {?>
         <?php
-            echo "le p'tit nom : ".$print->name;
-            echo " et pis le gros email : ".$print->email;
+            echo "<tr>";
+            echo "<td>".$print->name."</td>";
+            echo "<td>".$print->email."</td>";
+            echo "</tr>";
     }
+    ?>
+    </table>
+    <?php
 }
 ?>
