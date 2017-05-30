@@ -16,9 +16,16 @@
 
 get_header(); ?>
 
+<?php while ( have_posts() ) :
+the_post();
+?>
+
+
 <div class="petitcadre">
-    <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live.</h2>
-    <p>01/06/2017</p>
+    <h2><?php the_title(); ?></h2>
+    <p><?php echo get_post_custom_values('Date')[0]; ?></p>
 </div>
 
-<?php get_footer(); ?>
+<?php
+endwhile;
+get_footer(); ?>
