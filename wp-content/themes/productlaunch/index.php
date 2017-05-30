@@ -16,6 +16,9 @@
 
 get_header(); ?>
 
-<h1>Beujeur Monde !</h1>
+<div class="petitcadre">
+    <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live.</h2>
+    <p>01/06/2017</p>
+</div>
 
 <?php get_footer(); ?>

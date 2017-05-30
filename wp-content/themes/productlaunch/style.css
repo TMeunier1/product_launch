@@ -5,3 +5,10 @@ Author: Chose et truc
 Description: OUAI OUAI
 Version: 0.0000a
 Text Domain: productlaunch
+*/
+
+div {
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
