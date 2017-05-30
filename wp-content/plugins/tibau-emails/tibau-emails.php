@@ -30,6 +30,7 @@ function tibau_emails() {
             echo "<tr>";
             echo "<td>".$print->name."</td>";
             echo "<td>".$print->email."</td>";
+            echo "<td>".$print->format."</td>";
             echo "</tr>";
     }
     ?>
